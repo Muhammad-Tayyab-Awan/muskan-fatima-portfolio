@@ -480,7 +480,7 @@ section {
 }
 
 /* Contact Section */
-#contact {
+#contact, #resume {
     background-color: var(--secondary-color);
 }
 
