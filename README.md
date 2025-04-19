@@ -1,7 +1,7 @@
 ## 🚀 Contribute to Something Awesome!
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
-
+[![All Contributors](https://img.shields.io/badge/All_contributors-4-orange.svg)](#contributors)
+[![GitHub Repo stars](https://img.shields.io/github/stars/muskan-fatim/protofile)](https://github.com/muskan-fatim/protofile/stargazers)  
 
 Hey there, awesome human! 🙌  
 We’re building something cool here, and **YOU** can be a part of it! Whether you're a **beginner** or a **pro**, there’s always room for your ideas, skills, and creativity ✨
@@ -38,44 +38,21 @@ We’ll review it, cheer for you, and maybe even drop a GIF 🎉
 
 Huge shoutout to our lovely contributors who help this project grow! 💖
 
-<a href="https://github.com/maryamshakeel22" target="_blank">
+<a href="https://github.com/muskan-fatim/protofile/graphs/contributors" target="_blank">
   <img 
-    src="https://github.com/maryamshakeel22.png" 
-    width="80px" 
-    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
-    alt="Maryam Shakeel"
-  />
-</a>
-
-<a href="https://github.com/HassanRJ-3108" target="_blank">
-  <img 
-    src="https://github.com/HassanRJ-3108.png" 
-    width="80px" 
-    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
-    alt="Hassan"
-  />
-</a>
-
-<a href="https://github.com/Mubeen-Channa" target="_blank">
-  <img 
-    src="https://github.com/Mubeen-Channa.png" 
-    width="80px" 
-    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
-    alt="Mubeen"
-  />
-
-<a href="https://github.com/Muhammad-Tayyab-Awan" target="_blank">
-  <img 
-    src="https://github.com/Muhammad-Tayyab-Awan.png" 
-    width="80px" 
-    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
-    alt="Muhammad-Tayyab-Awan"
+    src="https://contrib.rocks/image?repo=muskan-fatim/protofile"  
   />
 </a>
 
 Wanna see your face here? Start contributing now! 😎
 
 ---
+
+<!-- if you want to add stats 
+![Alt](https://repobeats.axiom.co/api/embed/bf96b7d6dafbd40c1d22273be453438361b5dc5e.svg "Repobeats analytics image")
+this is from my fork repo, to generate for original repo 
+https://repobeats.axiom.co/
+-->
 
 ## 📄 License
 
