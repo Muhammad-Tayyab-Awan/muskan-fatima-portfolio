@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
             //form submission
             const object = Object.fromEntries(formData);
             // here you can change this key
-            object.access_key = "your-key-here";
+            object.access_key = "5a8a1d95-a437-43f3-82f6-8879762e8920";
             const json = JSON.stringify(object);
 
             fetch("https://api.web3forms.com/submit", {
