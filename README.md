@@ -1,5 +1,8 @@
 ## 🚀 Contribute to Something Awesome!
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+
+
 Hey there, awesome human! 🙌  
 We’re building something cool here, and **YOU** can be a part of it! Whether you're a **beginner** or a **pro**, there’s always room for your ideas, skills, and creativity ✨
 
@@ -36,10 +39,39 @@ We’ll review it, cheer for you, and maybe even drop a GIF 🎉
 Huge shoutout to our lovely contributors who help this project grow! 💖
 
 <a href="https://github.com/maryamshakeel22" target="_blank">
-  <img src="https://avatars.githubusercontent.com/u/151884542?v=4" width="80px;" alt="Maryam Shakeel"/>
+  <img 
+    src="https://github.com/maryamshakeel22.png" 
+    width="80px" 
+    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
+    alt="Maryam Shakeel"
+  />
 </a>
 
-<!-- More contributors will be added here automatically as PRs are merged -->
+<a href="https://github.com/HassanRJ-3108" target="_blank">
+  <img 
+    src="https://github.com/HassanRJ-3108.png" 
+    width="80px" 
+    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
+    alt="Hassan"
+  />
+</a>
+
+<a href="https://github.com/Mubeen-Channa" target="_blank">
+  <img 
+    src="https://github.com/Mubeen-Channa.png" 
+    width="80px" 
+    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
+    alt="Mubeen"
+  />
+
+<a href="https://github.com/Muhammad-Tayyab-Awan" target="_blank">
+  <img 
+    src="https://github.com/Muhammad-Tayyab-Awan.png" 
+    width="80px" 
+    style="border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 10px;" 
+    alt="Muhammad-Tayyab-Awan"
+  />
+</a>
 
 Wanna see your face here? Start contributing now! 😎
 
