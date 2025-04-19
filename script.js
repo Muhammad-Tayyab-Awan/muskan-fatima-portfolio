@@ -110,63 +110,87 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            let isValid = true;
-            
-            // Name validation
-            const nameInput = document.getElementById('name');
-            const nameError = document.getElementById('name-error');
-            
-            if (nameInput.value.trim() === '') {
-                nameError.textContent = 'Name is required';
-                nameError.style.display = 'block';
-                isValid = false;
-            } else {
-                nameError.style.display = 'none';
-            }
-            
-            // Email validation
-            const emailInput = document.getElementById('email');
-            const emailError = document.getElementById('email-error');
-            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            
-            if (emailInput.value.trim() === '') {
-                emailError.textContent = 'Email is required';
-                emailError.style.display = 'block';
-                isValid = false;
-            } else if (!emailPattern.test(emailInput.value)) {
-                emailError.textContent = 'Please enter a valid email';
-                emailError.style.display = 'block';
-                isValid = false;
-            } else {
-                emailError.style.display = 'none';
-            }
-            
-            // Message validation
-            const messageInput = document.getElementById('message');
-            const messageError = document.getElementById('message-error');
-            
-            if (messageInput.value.trim() === '') {
-                messageError.textContent = 'Message is required';
-                messageError.style.display = 'block';
-                isValid = false;
-            } else {
-                messageError.style.display = 'none';
-            }
-            
-            if (isValid) {
-                // Here you would normally send the form data to a server
-                // For now, we'll just show a success message
+        contactForm.addEventListener("submit", function (e) {
+          const formData = new FormData(contactForm);
+          e.preventDefault();
+
+          let isValid = true;
+
+          // Name validation
+          const nameInput = document.getElementById("name");
+          const nameError = document.getElementById("name-error");
+
+          if (nameInput.value.trim() === "") {
+            nameError.textContent = "Name is required";
+            nameError.style.display = "block";
+            isValid = false;
+          } else {
+            nameError.style.display = "none";
+          }
+
+          // Email validation
+          const emailInput = document.getElementById("email");
+          const emailError = document.getElementById("email-error");
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+          if (emailInput.value.trim() === "") {
+            emailError.textContent = "Email is required";
+            emailError.style.display = "block";
+            isValid = false;
+          } else if (!emailPattern.test(emailInput.value)) {
+            emailError.textContent = "Please enter a valid email";
+            emailError.style.display = "block";
+            isValid = false;
+          } else {
+            emailError.style.display = "none";
+          }
+
+          // Message validation
+          const messageInput = document.getElementById("message");
+          const messageError = document.getElementById("message-error");
+
+          if (messageInput.value.trim() === "") {
+            messageError.textContent = "Message is required";
+            messageError.style.display = "block";
+            isValid = false;
+          } else {
+            messageError.style.display = "none";
+          }
+
+          if (isValid) {
+            //form submission
+            const object = Object.fromEntries(formData);
+            // here you can change this key
+            object.access_key = "5a8a1d95-a437-43f3-82f6-8879762e8920";
+            const json = JSON.stringify(object);
+
+            fetch("https://api.web3forms.com/submit", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+              },
+              body: json
+            }).then(async (response) => {
+              let json = await response.json();
+              if (response.status == 200) {
                 contactForm.innerHTML = `
                     <div class="success-message">
                         <i class="fas fa-check-circle" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
-                        <h3>Message Sent Successfully!</h3>
+                        <h3>Dear, ${json.data.name}! Your Message Sent Successfully!</h3>
                         <p>Thank you for reaching out. I'll get back to you soon.</p>
                     </div>
                 `;
-            }
+              } else {
+                contactForm.innerHTML = `
+                    <div class="message">
+                        <i class="fa-solid fa-circle-xmark" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                        <h3 class="text-xl">Sorry, something went wrong</h3>
+                    </div>
+                `;
+              }
+            });
+          }
         });
     }
 
