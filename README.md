@@ -1,6 +1,6 @@
 ## 🚀 Contribute to Something Awesome!
 
-[![All Contributors](https://img.shields.io/badge/All_contributors-4-orange.svg)](#contributors)
+[![GitHub Contributors](https://img.shields.io/github/contributors/muskan-fatim/protofile)](https://github.com/muskan-fatim/protofile/graphs/contributors)
 [![GitHub Repo stars](https://img.shields.io/github/stars/muskan-fatim/protofile)](https://github.com/muskan-fatim/protofile/stargazers)  
 
 Hey there, awesome human! 🙌  
@@ -39,20 +39,14 @@ We’ll review it, cheer for you, and maybe even drop a GIF 🎉
 Huge shoutout to our lovely contributors who help this project grow! 💖
 
 <a href="https://github.com/muskan-fatim/protofile/graphs/contributors" target="_blank">
-  <img 
-    src="https://contrib.rocks/image?repo=muskan-fatim/protofile"  
-  />
+  <img src="https://contrib.rocks/image?repo=muskan-fatim/protofile&refresh=4" />
 </a>
+
 
 Wanna see your face here? Start contributing now! 😎
 
 ---
-
-<!-- if you want to add stats 
-![Alt](https://repobeats.axiom.co/api/embed/bf96b7d6dafbd40c1d22273be453438361b5dc5e.svg "Repobeats analytics image")
-this is from my fork repo, to generate for original repo 
-https://repobeats.axiom.co/
--->
+![Alt](https://repobeats.axiom.co/api/embed/094126cd4fb865ecaff02a3f479b2f96d4c31de3.svg "Repobeats analytics image")
 
 ## 📄 License
 
