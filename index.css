@@ -50,6 +50,33 @@ html {
     scroll-padding-top: 80px;
 }
 
+/* Copilot */
+
+div[data-radix-popper-content-wrapper] {
+    margin-top: 2.5rem;
+    /* top: 2.5rem */
+}
+
+#radix-\:r0\: {
+    height: calc(100vh - 230px) !important;
+    /* background: orange !important; */
+    /* height: min(730px,calc(100vh - 230px)) */
+}
+
+/* #copilot-chatbot {
+    background-color: blue;
+} */
+
+#chainlit-copilot {
+    background-color: blue !important;
+    position: relative;
+    z-index: 100 !important;
+}
+
+button.copilot-button {
+    padding: 0.25rem 0.5rem;
+}
+
 /* Scroll to Top Button */
 .scroll-to-top {
     position: fixed;
@@ -187,7 +214,7 @@ nav {
     transition: transform 0.3s ease;
 }
 
-.theme-switch:checked + .theme-switch-label .ball {
+.theme-switch:checked+.theme-switch-label .ball {
     transform: translateX(30px);
 }
 
@@ -258,8 +285,15 @@ nav {
 }
 
 @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
 
 .bio-text {
@@ -480,7 +514,8 @@ section {
 }
 
 /* Contact Section */
-#contact, #resume {
+#contact,
+#resume {
     background-color: var(--secondary-color);
 }
 
@@ -641,16 +676,16 @@ footer {
     .nav-links {
         gap: 20px;
     }
-    
+
     .profile-container {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .intro-text {
         text-align: center;
     }
-    
+
     .social-links {
         justify-content: center;
     }
@@ -661,17 +696,17 @@ footer {
         display: flex;
         align-items: center;
     }
-    
+
     .theme-toggle {
         margin-right: 15px;
         order: 1;
     }
-    
+
     .hamburger {
         display: block;
         order: 2;
     }
-    
+
     .hamburger .line {
         width: 30px;
         height: 3px;
@@ -679,7 +714,7 @@ footer {
         margin: 6px 0;
         transition: var(--transition);
     }
-    
+
     .nav-links {
         position: fixed;
         top: 0;
@@ -693,32 +728,32 @@ footer {
         transition: right 0.5s ease;
         z-index: 100;
     }
-    
+
     .nav-links.active {
         right: 0;
-        margin:0;
+        margin: 0;
     }
-    
+
     .hamburger.active .line:nth-child(1) {
         transform: rotate(45deg) translate(8px, 6px);
     }
-    
+
     .hamburger.active .line:nth-child(2) {
         opacity: 0;
     }
-    
+
     .hamburger.active .line:nth-child(3) {
         transform: rotate(-45deg) translate(8px, -6px);
     }
-    
+
     .contact-form {
         grid-template-columns: 1fr;
     }
-    
+
     .form-group:nth-child(3) {
         grid-column: span 1;
     }
-    
+
     .submit-button {
         grid-column: span 1;
     }
@@ -728,16 +763,16 @@ footer {
     .section-title {
         font-size: 2rem;
     }
-    
+
     .intro-text h1 {
         font-size: 2rem;
     }
-    
+
     .profile-pic {
         width: 200px;
         height: 200px;
     }
-    
+
     .projects-grid {
         grid-template-columns: 1fr;
     }
